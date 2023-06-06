@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,500;1,100&family=Open+Sans:wght@400;500&display=swap');
+
+body
+{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+}
+ 
+ header
+ {
+   text-align: center;
+   background: rgb(112, 24, 24);
+   padding: 1em 0;
+  
+ }
+
+ .container
+ {
+   width: 90%;
+   max-width: 1000px;
+    margin:0 auto;
+ }
+
+ .container-nav{
+  display: flex;
+  justify-content: space-between;
+ }
+
+ @media(max-width:500px){
+   .container-nav
+   {
+    flex-direction: column;
+   }
+ }
+
+
+ 
+ /* typography */
+h1{
+  font-family: 'Open Sans', sans-serif;
+   font-weight: 1000;
+   font-size:2rem;
+   color:rgb(255, 255, 255);
+   margin:0;
+}
+
+.subtitle
+{
+  
+  font-weight: 700;
+  color:rgb(236, 135, 135);
+  font-size: .75rem;
+  margin:0;
+}
+
+ /* end of typography */
+
+ nav ul {
+        
+        list-style: none;
+        padding:0;
+        display: flex;
+       justify-content: center;
+  }
+
+  nav li{
+   
+   padding-left: 1em;
+   padding-right: 1em;
+   
+  }
+
+  @media(max-width:500px)
+  {
+    nav ul {
+      flex-direction: column;
+    };
+
+    nav li {
+      margin: 1em 1em;
+      
+    };
+  }
+
+
+  nav a{
+    
+    text-decoration: none;
+    color: #f5f3f3;
+    font-weight: 700;
+    padding: .25em;
+
+  }
+
+
+
+  nav a:hover, nav a:focus {
+      color:blueviolet;
+      
+  }
+
+ 
